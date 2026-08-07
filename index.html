@@ -6,11 +6,11 @@
 
 <title>Portals of Recognition — The Shiva Sutras</title>
 <meta name="description" content="The seventy-seven sutras of the Shiva Sutras of Vasugupta — foundational aphorisms of Kashmir Śaivism — rendered as a book you can read."/>
-<meta name="author" content="Portals of Now"/>
+<meta name="author" content="portalsofrecognition"/>
 <link rel="canonical" href="https://portalsofrecognition.vercel.app/"/>
 
 <!-- Theme / browser chrome -->
-<meta name="theme-color" content="#0E1A22"/>
+<meta name="theme-color" content="#0E1E28"/>
 <meta name="color-scheme" content="light dark"/>
 
 <!-- Favicon & app icons -->
@@ -50,7 +50,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Cormorant Garamond
 
 /* ── THEME VARIABLES ─── */
 :root{
-  --desk-1:#0E1A22; --desk-2:#040810;
+  --desk-1:#0E1E28; --desk-2:#040A12;
   --paper:#F0E8D5; --paper-edge:#C8AA80; --paper-corner:#D8C8A8;
   --ink:#1C1810; --ink-soft:#2A1E10;
   --eyebrow:#8A7448; --gold:#C8920A; --gold-soft:#B08850;
@@ -550,18 +550,18 @@ body[data-reading="false"] #toolbar{opacity:0.5}
   <!-- COVER -->
   <div class="page" id="cover-page">
     <div class="page-grain"></div><div class="page-foxing"></div>
-    <div class="cover-press">Shiva Sutras · Kashmir Śaivism</div>
+    <div class="cover-press">Shiva Sūtras · Kashmir Śaivism</div>
     <div class="cover-border">
       <div class="cover-border-line"></div>
       <div class="cover-border-ornament">❧ ✦ ❧</div>
       <div class="cover-border-line thin"></div>
     </div>
-    <h1 class="cover-title">Portals<br>of Now</h1>
+    <h1 class="cover-title">Portals<br>of Recognition</h1>
     <p class="cover-subtitle">Seventy-Seven Aphorisms on Consciousness</p>
     <div class="orn-rule" style="max-width:200px;margin:0 auto 16px">
       <div class="orn-rule-line"></div><span class="orn-rule-glyph">✾</span><div class="orn-rule-line"></div>
     </div>
-    <p class="cover-vbt">Being a rendering of the Shiva Sutras of Vasugupta</p>
+    <p class="cover-vbt">Being a rendering of the Shiva Sūtras</p>
     <p class="cover-count">Seventy-Seven Doorways into Recognition</p>
     <button class="cover-begin" onclick="goForward()">Open the Book</button>
     <button id="continue-reading" style="display:none">
@@ -578,9 +578,10 @@ body[data-reading="false"] #toolbar{opacity:0.5}
     <h2 class="fm-title">A Note Before You Begin</h2>
     <div class="orn-rule"><div class="orn-rule-line"></div><span class="orn-rule-glyph">❧</span><div class="orn-rule-line"></div></div>
     <div class="fm-body">
-      <p class="fm-para">The Vijñāna Bhairava Tantra is one of the oldest contemplative texts in the world — a dialogue between Bhairava and Devi, the absolute and the seeker, composed in Kashmir around the eighth century. In it, Bhairava offers 112 dharanas: not 112 techniques, but 112 doors into the same room. That room is the present moment. Pure awareness. What you already are, when you stop looking for something else.</p>
-      <p class="fm-para">Each page of this book holds one dharana. At the top, the original Sanskrit verse — the door as it was first carved. Below it, a plain-English rendering of what the dharana is actually asking you to do, followed by a practical instruction for ordinary life. At the bottom, a single closing line. That line is not a summary. It is a pointer. It asks you to look in a particular direction.</p>
-      <p class="fm-para">You do not need to read in order. You do not need to read one a day. Open anywhere. The only instruction that matters: when the page is in front of you, be here.</p>
+      <p class="fm-para">The Shiva Sūtras are the foundational text of the Kashmir Śaiva tradition. According to the tradition, the sage Vasugupta received them in a dream — or found them inscribed on a stone — on the mountain Mahadeva near Kashmir in the ninth century. Whether the transmission was literal or metaphorical, the sutras themselves carry a quality that feels like direct dictation from the absolute: compressed, precise, and inexhaustible.</p>
+      <p class="fm-para">Seventy-seven sutras in three sections: the Way of Shiva, the Way of Shakti, and the Individual Way. Each section approaches the recognition of consciousness as the self from a different angle. Together they constitute a complete map of the path — not a path to be traveled in sequence, but a map that can be entered at any point, because every point leads to the same recognition.</p>
+      <p class="fm-para">These seventy-seven passages — one for each sutra — enter the teaching at its most immediate: each sutra opened into its lived dimension, its practical consequence, its direct implication for the practitioner who receives it. The recognition is not future. It is available in the reading of each sutra — if the reading is genuine enough.</p>
+      <p class="fm-para">Read each sutra slowly. Let it work before moving to the next.</p>
     </div>
     <div class="orn-rule" style="margin-top:clamp(8px,1.5vw,14px)"><div class="orn-rule-line"></div><span class="orn-rule-glyph">✦</span><div class="orn-rule-line"></div></div>
     <div class="fm-folio">
@@ -655,8 +656,17 @@ body[data-reading="false"] #toolbar{opacity:0.5}
   </div>
 
   <!-- ABOUT THE TEXT -->
-  <div class="page" id="about-page">
+  <div class="page" <div class="page" id="about-page">
     <div class="page-grain"></div><div class="page-foxing"></div>
+    <div class="fm-eyebrow">About the Text</div>
+    <h2 class="fm-title" style="font-size:clamp(20px,4vw,28px)">About the Text</h2>
+    <div class="orn-rule"><div class="orn-rule-line"></div><span class="orn-rule-glyph">❧</span><div class="orn-rule-line"></div></div>
+    <div class="fm-body">
+      <p class="fm-para">The Shiva Sūtras established the philosophical framework that would be elaborated by the entire Kashmir Śaiva tradition — by Kallata in the Spanda Kārikās, by Somananda in the Shivadrṣti, by Utpaladeva in the Īśvarapratyabhijñā, and by Abhinavagupta in the Tantrāloka and the Paramārthasāra. They are the seed from which a thousand-year tradition of philosophical and practical elaboration grew.</p>
+      <p class="fm-para">The three sections correspond to three levels of the path. The first section (Shambhavopaya — the Way of Shiva) addresses the recognition available to the practitioner who can rest in pure consciousness without effort. The second section (Shaktopaya — the Way of Shakti) addresses the recognition available through the practice of mantra and contemplation. The third section (Anavopaya — the Individual Way) addresses the recognition available through the ordinary practices of the body, breath, and attention.</p>
+      <p class="fm-para">All three paths arrive at the same recognition. These seventy-seven passages enter each sutra and follow it to that arrival — wherever the sutra's particular angle of approach leads, and however long it takes to get there.</p>
+    </div>
+  </div><div class="page-foxing"></div>
     <div class="fm-eyebrow">An Appendix</div>
     <h2 class="fm-title">About the Text</h2>
     <div class="orn-rule"><div class="orn-rule-line"></div><span class="orn-rule-glyph">❧</span><div class="orn-rule-line"></div></div>
@@ -1205,10 +1215,10 @@ function announcePageChange(key) {
   } else if (key.startsWith('ch-')) {
     const c = CHAPTERS[parseInt(key.slice(3))-1];
     msg = `Chapter ${c.label}. ${c.name}.`;
-  } else if (key==='cover') msg='Cover. Portals of Now.';
+  } else if (key==='cover') msg='Cover. Portals of Recognition.';
   else if (key==='frontmatter') msg='How to Read This Book.';
   else if (key==='contents') msg='Table of Contents.';
-  else if (key==='closing') msg='The end. The room was never locked.';
+  else if (key==='closing') msg='The recognition was always the case. Now it is recognized as the case.';
   else if (key==='about') msg='About the Text.';
   live.textContent = msg;
 }
